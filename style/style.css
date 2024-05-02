@@ -46,9 +46,26 @@
 
 .hero-dots {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 30px;
 }
 
+.hero-dots-dot-unselected {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.hero-dots-dot-selected {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  background-color: white;
+  position: relative;
+  transform: rotate(45deg); /* Rotação de 45 graus */
+  transform-origin: 50% 50%; /* Origem da transformação no centro */
+}
 /* Login Section */
 
 .login {
