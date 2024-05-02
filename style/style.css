@@ -186,8 +186,23 @@
 
 /* or */
 .or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   height: 20px;
   margin-bottom: 30px;
+}
+
+.custom-line {
+  background-color: #cbd1dc;
+  width: 140px;
+  height: 1px; /* Altura da linha */
+}
+
+.or span {
+  font-size: 15px;
+  color: #737d8c;
 }
 
 /* sso-login */
@@ -201,10 +216,21 @@
   height: 45px;
   border-radius: 45px;
   border: 1px solid #cdd6e1;
-  padding: 7.5px 20px 7.5px 20px;
+  padding: 7.5px 15px 7.5px 10px;
   background-color: transparent;
-
   cursor: pointer;
+}
+
+.sso-login button div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sso-login button img {
+  width: 26px;
+  height: 26px;
 }
 
 .sso-login span {
