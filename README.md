@@ -29,8 +29,8 @@ Welcome to our Real Estate App! This application is designed to help users brows
 
 ## Contributors
 
-- @thaijupiter
-- @Hershey0015
+- [thaijupiter](https://github.com/thaijupiter)
+- [Hershey0015](https://github.com/Hershey0015)
 
 ## License
 
