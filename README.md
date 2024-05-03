@@ -29,11 +29,7 @@ Welcome to our Real Estate App! This application is designed to help users brows
 
 ## Contributors
 
+We 💖 contributors! Feel free to contribute, report issues, or suggest improvements to this project. We also welcome you to join our [Discord](https://discord.gg/6vGJnhUr) community for either support or contributing guidance.
+
 - [thaijupiter](https://github.com/thaijupiter)
 - [Hershey0015](https://github.com/Hershey0015)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to contribute, report issues, or suggest improvements!
