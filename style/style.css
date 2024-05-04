@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.root {
+  display: flex;
+  height: 100vh;
+}
+
+.hero {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1252ae;
+  background-image: url('../images/herobackground.png');
+  background-size: cover;
+}
+
+.hero-image-container img {
+  width: 437px;
+  height: 555px;
+  border-radius: 50px 50px 10px 50px;
+  -webkit-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text-container {
+  width: 547px;
+  margin: 30px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.hero-dots {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-dots-dot-unselected {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.hero-dots-dot-selected {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  background-color: white;
+  position: relative;
+  transform: rotate(45deg); /* Rotação de 45 graus */
+  transform-origin: 50% 50%; /* Origem da transformação no centro */
+}
+/* Login Section */
+
+.login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header-logo {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #1252ae26;
+  background-color: #1252ae1f;
+}
+
+.login-header-logo img {
+  width: 50px;
+}
+
+.login-header h2 {
+  margin: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #2a323c;
+}
+
+.login-header h3 {
+  margin-top: 5px;
+  margin-bottom: 35px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: #737d8c;
+  width: 373px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login-form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form-field label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #737d8c;
+}
+
+.login-form-field input {
+  height: 48px;
+  border-radius: 4px;
+  padding-left: 20px;
+  border: 1px solid #cdd6e1;
+}
+
+.login-form-field i {
+  width: 22px;
+  height: 22px;
+  color: #737d8c;
+  position: absolute;
+  top: 70%;
+  left: 94%;
+  transform: translateY(-50%);
+}
+
+::placeholder {
+  font-size: 15px;
+  color: #a2aab8;
+}
+
+.login-form-bottom {
+  margin-top: 12px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-form-bottom input {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #cdd6e1;
+}
+
+.login-form-bottom label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #737d8c;
+}
+
+.login-form-bottom a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737d8c;
+}
+
+.login-form button {
+  margin-bottom: 30px;
+  background-color: #1252ae;
+  height: 38px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+/* or */
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+.custom-line {
+  background-color: #cbd1dc;
+  width: 140px;
+  height: 1px; /* Altura da linha */
+}
+
+.or span {
+  font-size: 15px;
+  color: #737d8c;
+}
+
+/* sso-login */
+
+.sso-login {
+  display: flex;
+  gap: 30px;
+}
+
+.sso-login button {
+  height: 45px;
+  border-radius: 45px;
+  border: 1px solid #cdd6e1;
+  padding: 7.5px 15px 7.5px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sso-login button div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sso-login button img {
+  width: 26px;
+  height: 26px;
+}
+
+.sso-login span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #737d8c;
+}
