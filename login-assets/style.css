@@ -1,0 +1,252 @@
+/*Homeland project */
+body{
+    font-family: sans-serif;
+    background-color: hsl(60, 0%, 44%);
+    width: 1200px;
+    height: 700px;
+}
+.picture-block{ 
+    background-color: rgba(2, 74, 146, 1);
+    background-image: url("./overlay-shape-img.png");
+    background-size: cover;
+    display: inline-block;
+    width: 600px;
+    height: 700px;
+    position: sticky;
+    margin: 0; 
+}
+#house{
+    width: 300px;
+    padding: 0;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px hsl(210, 97%, 26%);
+    position: absolute;
+    top: 450px;
+    left: 130px;
+}
+#dots{
+    width: 50px;
+    position: absolute;
+    top: 575px;
+    left: 275px;
+}
+
+/*Other side styles downwards*/
+
+.text-block{
+    display: inline-block;
+    float: right;
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    position: sticky;
+    left: 600px;
+    top:0;
+}
+.inner-card{
+    width:300px;
+    height:500px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+#logo{ 
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 25px;
+    left: 110px;
+}
+h2{
+    font-size: 1.2rem;
+    color:hsl(0, 0%, 30%);
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+p{
+    display: inline-block;
+    width: 260px;
+    margin-left: 7.5px;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 80%);
+}
+#back{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 0.67rem;
+    text-align: center;
+    color: hsl(0, 0%, 55%);
+}
+.email{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    display:inline-block;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 2px;
+}
+#email{
+    display:inline-block;
+    width: 150px;
+    position: relative;
+    top: 5px;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 60%);
+}
+#at{
+    float:right;
+    display:inline-block;
+    width: 15px;
+    margin-top: 7.5px;
+    margin-right: 7.5px;
+}
+.pass{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    display:inline-block;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 2px;
+}
+#pass{
+    display:inline-block;
+    width: 150px;
+    position: relative;
+    top: 15px;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 60%);
+}
+#lock{
+    float:right;
+    display:inline-block;
+    width: 15px;
+    margin-top: 7.5px;
+    margin-right: 7.5px;
+}
+#tickbox{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 2px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    margin-left: 0;
+}
+#rem{
+    display:inline-block;
+    width: 170px;
+    height: 10px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    margin-left: 0; 
+    color: hsl(0, 0%, 60%)
+}
+#forgot{
+    text-align: right;
+    display:inline-block;
+    width: 100px;
+    height: 10px;
+    position: relative;
+    top: 5px;
+    right: 0px;
+    color: hsl(0, 0%, 60%);
+    font-size: 0.55rem;
+}
+h3{
+    background-color: rgba(2, 74, 146, 1);
+    box-shadow: 1px 2px 3px hsl(212, 18%, 70%);
+    border-radius: 3px;
+    width:100%;
+    height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.6rem;
+    line-height: 300%;
+    color: white;
+    position:relative;
+    top: 5px;
+}
+#or{
+    position: relative;
+    top: 10px;
+    left: 10%;
+    width: 80%;   
+}
+.google{
+    position: relative;
+    top: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 20px;
+    width: 45%;
+    height: 30px;
+    float: left;
+}
+#google{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+}
+.google > p{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    right: 10px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 60%);    
+}
+.facebook{
+    position: relative;
+    top: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 20px;
+    width: 50%;
+    height: 30px;
+    float: right;
+}
+#facebook{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+}
+.facebook > p{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    margin-right: 2px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 60%);    
+}
