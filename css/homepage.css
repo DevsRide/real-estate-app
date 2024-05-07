@@ -1,0 +1,111 @@
+body {
+	margin: 0px;
+	font-family: Poppins,"Open Sans", sans-serif;
+	/* color: whitesmoke; */
+}
+
+.container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: auto auto;
+}
+
+.left-side {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+
+}
+#leftbg {
+	height: 100%;
+	width: 100%;
+}
+.right-side {
+	padding: 20px;
+	display:grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.displayCard {
+	text-align: center;
+}
+.displayCard h2 {
+    font-size: 24px;
+    color: #03045E;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+img {
+	width: 500px;
+	height: 500px;
+	border-radius: 40px;
+}
+
+.left-side h1,span{
+	color: black;
+	text-align: center;
+	justify-items: center;
+	
+}
+.left-side h1{
+	font-size: 20px;
+}
+.fa-solid.fa-house {
+	color:#03045E;
+	align-self:center;
+	font-size: 70px;
+	
+}
+.icon{
+	align-items: center;
+	justify-self:center;
+	
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button[type="submit"] {
+	font-family: Poppins;
+    background-color:#0077B6;
+    color: black;
+    padding: 10px;
+	width: 105%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+	font-size: large;
+letter-spacing: 1px;
+}
+
+button[type="submit"]:hover {
+    background-color:#00B4D8;
+}
+
+
+.login-options {
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+  }
+  
+  .forget {
+	margin-left: auto; 
+  }
+  
